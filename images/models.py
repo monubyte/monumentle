@@ -13,6 +13,5 @@ class Image(models.Model):
     def __str__(self):
         return self.label
 
-    def get_ids(self):
-        return self.objects.values_list('id', flat=True)
+
 
